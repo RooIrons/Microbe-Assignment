@@ -7,8 +7,18 @@ setwd("C:/Users/Rebecca Irons/Desktop/MODULES/Microbes/Archaea Assignment/Microb
 
 ##** Install Phyloseq **##
 
-## Install Bioconductor
+## Install Bioconductor to eventually install the package Phyloseq 
 
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 BiocManager::install()
+
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+pkgs <- rownames(installed.packages())
+BiocManager::install(pkgs, type = "source", checkBuilt = TRUE)
+
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
+BiocManager::install("phyloseq")
