@@ -1,13 +1,15 @@
 
-##** Clear working space **##
+##** Setting up workspace, downloading packages etc**##
+
+## Clear working space 
 rm(list = ls())
 
-##** Set working directory **##
+## Set working directory
 setwd("C:/Users/Rebecca Irons/Desktop/MODULES/Microbes/Archaea Assignment/Microbe-Assignment")
 
-##** Install Phyloseq **##
 
-## Install Bioconductor to eventually install the package Phyloseq 
+## Install Phyloseq
+# Install Bioconductor to eventually install the package Phyloseq 
 
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
