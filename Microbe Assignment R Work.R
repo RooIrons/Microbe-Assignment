@@ -4,6 +4,7 @@
 ## Clear working space 
 rm(list = ls())
 
+
 ## Set working directory
 setwd("C:/Users/Rebecca Irons/Desktop/MODULES/Microbes/Archaea Assignment/Microbe-Assignment")
 
